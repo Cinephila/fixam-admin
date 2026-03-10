@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Delete Account Request - Fixam Admin</title>
+  <link rel="icon" type="image/png" href="./images/favicon.png" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Delete Account Request</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="eula.html">EULA</a>
+      <a href="contact.html">Contact</a>
+      <a href="delete-account.html">Delete Account</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Request Account Deletion</h2>
+      <p>We respect your right to privacy and control over your data. If you wish to delete your Fixam account, please complete the form below. Once submitted, our team will verify your request and permanently remove your account and associated data in accordance with our <a href="privacy.html">Privacy Policy</a>.</p>
+      
+      <form id="deleteForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required />
 
+        <label for="email">Registered Email:</label>
+        <input type="email" id="email" required />
+
+        <label for="reason">Reason for Deletion (optional):</label>
+        <textarea id="reason"></textarea>
+
+        <button type="submit">Submit Request</button>
+      </form>
+      <p id="deleteResponse"></p>
+    </section>
+
+    <section>
+      <h2>Important Information</h2>
+      <ul>
+        <li>Account deletion is permanent and cannot be reversed.</li>
+        <li>All personal data, including location history and service preferences, will be erased.</li>
+        <li>We do not share your request or information with third parties.</li>
+        <li>Deletion requests are processed within 30 days in compliance with Ghanaian data protection laws.</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>📍 Adenta, Accra, Ghana | 📞 +233 538 876 200 | 📧 cinephilafilms@gmail.com</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
